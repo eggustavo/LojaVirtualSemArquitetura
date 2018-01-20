@@ -1,0 +1,97 @@
+<h3>Novo Usuário</h3>
+<form name="formUsuario" id="formUsuario" ng-submit="vm.adicionar()" novalidate>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" ng-model="vm.usuario.nome" id="nome" name="nome" ng-minlength="5" ng-maxlength="100" required autofocus/>
+            <span class="text-danger" ng-show="formUsuario.nome.$dirty && formUsuario.nome.$error.required">Nome Obrigatório</span>
+            <span class="text-danger" ng-show="formUsuario.nome.$dirty && formUsuario.nome.$error.minlength">Nome deve ter no mínimo 5 caracteres</span>
+            <span class="text-danger" ng-show="formUsuario.nome.$dirty && formUsuario.nome.$error.maxlength">Nome deve ter no máximo 100 caracteres</span>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" ng-model="vm.usuario.email" id="email" name="email" ng-minlength="10" ng-maxlength="200" required/>
+            <span class="text-danger" ng-show="formUsuario.email.$dirty && formUsuario.email.$error.required">E-mail Obrigatório</span>
+            <span class="text-danger" ng-show="formUsuario.email.$dirty && formUsuario.email.$error.minlength">E-mail deve ter no mínimo 10 caracteres</span>
+            <span class="text-danger" ng-show="formUsuario.email.$dirty && formUsuario.email.$error.maxlength">E-mail deve ter no máximo 200 caracteres</span>
+        </div>        
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="senha">Senha</label>
+            <input type="password" class="form-control" ng-model="vm.usuario.senha" id="senha" name="senha" ng-minlength="5" ng-maxlength="20" required/>
+            <span class="text-danger" ng-show="formUsuario.senha.$dirty && formUsuario.senha.$error.required">Senha Obrigatório</span>
+            <span class="text-danger" ng-show="formUsuario.senha.$dirty && formUsuario.senha.$error.minlength">Senha deve ter no mínimo 5 caracteres</span>
+            <span class="text-danger" ng-show="formUsuario.senha.$dirty && formUsuario.senha.$error.maxlength">Senha deve ter no máximo 20 caracteres</span>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="confirmarSenha">Confirmar Senha</label>
+            <input type="password" class="form-control" ng-model="vm.usuario.confirmarSenha" id="confirmarSenha" name="confirmarSenha" ng-minlength="5" ng-maxlength="20" match-password="senha" required/>
+            <span class="text-danger" ng-show="formUsuario.confirmarSenha.$dirty && formUsuario.confirmarSenha.$error.required">Senha Obrigatório</span>
+            <span class="text-danger" ng-show="formUsuario.confirmarSenha.$dirty && formUsuario.confirmarSenha.$error.minlength">Senha deve ter no mínimo 5 caracteres</span>
+            <span class="text-danger" ng-show="formUsuario.confirmarSenha.$dirty && formUsuario.confirmarSenha.$error.maxlength">Senha deve ter no máximo 20 caracteres</span>
+            <span class="text-danger" ng-show="formUsuario.confirmarSenha.$dirty && formUsuario.confirmarSenha.$error.passwordMatch">Senha não Confere</span>
+        </div>                     
+    </div>
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label for="cep">Cep</label>
+            <input type="text" class="form-control" ng-model="vm.usuario.cep" id="cep" name="cep" ng-blur="vm.pesquisarCep()" required/>
+            <span class="text-danger" ng-show="formUsuario.cep.$dirty && formUsuario.cep.$error.required">Cep Obrigatório</span>
+        </div>
+        <div class="form-group col-md-8">
+            <label for="logradouro">Logradouro</label>
+            <input type="text" class="form-control" ng-model="vm.usuario.logradouro" id="logradouro" name="logradouro" ng-minlength="10" ng-maxlength="200" required/>
+            <span class="text-danger" ng-show="formUsuario.logradouro.$dirty && formUsuario.logradouro.$error.required">Logradouro Obrigatório</span>
+            <span class="text-danger" ng-show="formUsuario.logradouro.$dirty && formUsuario.logradouro.$error.minlength">Logradouro deve ter no mínimo 10 caracteres</span>
+            <span class="text-danger" ng-show="formUsuario.logradouro.$dirty && formUsuario.logradouro.$error.maxlength">Logradouro deve ter no máximo 200 caracteres</span>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="numero">Número</label>
+            <input type="text" class="form-control" ng-model="vm.usuario.numero" id="numero" name="numero" ng-maxlength="5" required/>
+            <span class="text-danger" ng-show="formUsuario.confirmarSenha.$dirty && formUsuario.confirmarSenha.$error.required">Número Obrigatório</span>
+            <span class="text-danger" ng-show="formUsuario.confirmarSenha.$dirty && formUsuario.confirmarSenha.$error.maxlength">Número deve ter no máximo 5 caracteres</span>
+        </div>                     
+    </div>    
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="complemento">Complemento</label>
+            <input type="text" class="form-control" ng-model="vm.usuario.complemento" id="complemento" name="complemento"/>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="bairro">Bairro</label>
+            <input type="text" class="form-control" ng-model="vm.usuario.bairro" id="bairro" name="bairro" ng-minlength="3" ng-maxlength="100" required/>
+            <span class="text-danger" ng-show="formUsuario.bairro.$dirty && formUsuario.bairro.$error.required">Bairro Obrigatório</span>
+            <span class="text-danger" ng-show="formUsuario.bairro.$dirty && formUsuario.bairro.$error.minlength">Bairro deve ter no mínimo 3 caracteres</span>
+            <span class="text-danger" ng-show="formUsuario.bairro.$dirty && formUsuario.bairro.$error.maxlength">Bairro deve ter no máximo 100 caracteres</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-10">
+            <label for="municipio">Município</label>
+            <input type="text" class="form-control" ng-model="vm.usuario.municipio" id="municipio" name="municipio" ng-minlength="3" ng-maxlength="100" required/>
+            <span class="text-danger" ng-show="formUsuario.municipio.$dirty && formUsuario.municipio.$error.required">Município Obrigatório</span>
+            <span class="text-danger" ng-show="formUsuario.municipio.$dirty && formUsuario.municipio.$error.minlength">Município deve ter no mínimo 3 caracteres</span>
+            <span class="text-danger" ng-show="formUsuario.municipio.$dirty && formUsuario.municipio.$error.maxlength">Município deve ter no máximo 100 caracteres</span>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="uf">Bairro</label>
+            <input type="text" class="form-control" ng-model="vm.usuario.uf" id="uf" name="uf" ng-minlength="2" ng-maxlength="2" required/>
+            <span class="text-danger" ng-show="formUsuario.uf.$dirty && formUsuario.uf.$error.required">UF Obrigatória</span>
+            <span class="text-danger" ng-show="formUsuario.uf.$dirty && formUsuario.uf.$error.minlength">UF deve ter no mínimo 2 caracteres</span>
+            <span class="text-danger" ng-show="formUsuario.uf.$dirty && formUsuario.uf.$error.maxlength">UF deve ter no máximo 2 caracteres</span>
+        </div>
+    </div> 
+    <footer>
+        <div class="pull-right">
+            <button class="btn btn-success" type="submit" ng-disabled="formUsuario.$invalid">
+                <span class="glyphicon glyphicon-ok"></span>
+                Confirmar
+            </button>
+            <a href="#!/" class="btn btn-danger">
+                <span class="glyphicon glyphicon-remove"></span>
+                Cancelar
+            </a>
+        </div>
+    </footer>
+</form>

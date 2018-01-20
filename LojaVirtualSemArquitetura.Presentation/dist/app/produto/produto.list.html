@@ -1,0 +1,40 @@
+<h3>Produtos</h3>
+<a class="btn btn-primary btn-sm pull-right" href="#!/produto/create">
+    <span class="glyphicon glyphicon-plus"></span>    
+    Novo Produto
+</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th class="col-md-1">Imagem</th>
+            <th class="col-md-9">Descrição</th>
+            <th class="col-md-2 text-center">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="3">
+                <input type="text" class="form-control input-sm" ng-model="filtro" placeholder="Filtrar..." />
+            </td>
+        </tr>
+        <tr ng-repeat="produto in vm.colecaoProduto | filter : filtro">
+            <td>
+                <img ng-src="{{ 'data:image/jpg;base64,' + produto.imagem }}" height="75"/>        
+            </td>
+            <td style="vertical-align: middle">{{ produto.descricao }}</td>
+            <td style="vertical-align: middle">
+                <div class="text-center">
+                    <a class="btn btn-primary btn-xs" data-toggle="tooltip" title="Visualizar" href="#!/produto/view/{{produto.id}}">
+                        &nbsp;<span class="glyphicon glyphicon-search"></span>&nbsp;
+                    </a>
+                    <a class="btn btn-primary btn-xs" data-toggle="tooltip" title="Editar" href="#!/produto/edit/{{produto.id}}">
+                        &nbsp;<span class="glyphicon glyphicon-edit"></span>&nbsp;
+                    </a>
+                    <button type="button" class="btn btn-danger btn-xs" ng-click="vm.remover(produto)" data-toggle="tooltip" title="Remover">
+                        &nbsp;<span class="glyphicon glyphicon-remove"></span>&nbsp;
+                    </button>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

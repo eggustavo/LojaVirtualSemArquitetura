@@ -1,0 +1,37 @@
+<div class="col-md-4 col-md-offset-4">
+    <div class="panel panel-default">
+        <div class="panel-heading text-center">
+            Trocar Senha
+        </div>
+        <div class="panel-body">
+            <form name="formTrocarSenha" ng-submit="vm.submit()" novalidate>
+                <div class="form-group" ng-class="{ 'has-error' : formTrocarSenha.senha.$invalid && formTrocarSenha.senha.$dirty }">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" id="senha" name="senha" ng-model="vm.usuario.senha" required/>
+                </div>
+                <div class="form-group" ng-class="{ 'has-error' : formTrocarSenha.novaSenha.$invalid && formTrocarSenha.novaSenha.$dirty }">
+                    <label for="novaSenha">Nova Senha</label>
+                    <input type="password" class="form-control" id="novaSenha" name="novaSenha" ng-model="vm.usuario.novaSenha" ng-minlength="5" ng-maxlength="20" required/>
+                    <span class="text-danger" ng-show="formTrocarSenha.novaSenha.$dirty && formTrocarSenha.novaSenha.$error.required">Nova Senha Obrigatória</span>
+                    <span class="text-danger" ng-show="formTrocarSenha.novaSenha.$dirty && formTrocarSenha.novaSenha.$error.minlength">Nova Senha deve ter no mínimo 5 caracteres</span>
+                    <span class="text-danger" ng-show="formTrocarSenha.novaSenha.$dirty && formTrocarSenha.novaSenha.$error.maxlength">Nova Senha deve ter no máximo 20 caracteres</span>                    
+                </div>
+                <div class="form-group" ng-class="{ 'has-error' : formTrocarSenha.confirmarNovaSenha.$invalid && formTrocarSenha.confirmarNovaSenha.$dirty }">
+                    <label for="confirmarNovaSenha">Confirmar Nova Senha</label>
+                    <input type="password" class="form-control" id="confirmarNovaSenha" name="confirmarNovaSenha" ng-model="vm.usuario.confirmarNovaSenha" match-password="novaSenha" ng-minlength="5" ng-maxlength="20" required/>
+                    <span class="text-danger" ng-show="formTrocarSenha.confirmarNovaSenha.$dirty && formTrocarSenha.confirmarNovaSenha.$error.required">Confirmação de Senha Obrigatória</span>
+                    <span class="text-danger" ng-show="formTrocarSenha.confirmarNovaSenha.$dirty && formTrocarSenha.confirmarNovaSenha.$error.minlength">Confirmação de Senha deve ter no mínimo 5 caracteres</span>
+                    <span class="text-danger" ng-show="formTrocarSenha.confirmarNovaSenha.$dirty && formTrocarSenha.confirmarNovaSenha.$error.maxlength">Confirmação de Senha deve ter no máximo 20 caracteres</span>
+                    <span class="text-danger" ng-show="formTrocarSenha.confirmarNovaSenha.$dirty && formTrocarSenha.confirmarNovaSenha.$error.passwordMatch">Senha não Confere</span>
+                </div>                                    
+                <button type="submit" class="btn btn-primary btn-block" ng-disabled="formTrocarSenha.$invalid">
+                    Trocar
+                </button>
+                <br>
+                <div class="text-center">
+                    <a href="#!/">Home</a>
+                </div>                
+            </form>
+        </div>
+    </div>
+</div>

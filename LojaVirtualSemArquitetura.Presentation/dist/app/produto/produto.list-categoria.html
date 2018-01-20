@@ -1,0 +1,17 @@
+<h3>Produtos</h3>
+<div class="row">
+    <div class="col-xs-6 col-md-3" ng-repeat="produto in vm.colecaoProduto">
+        <div class="thumbnail">
+            <img ng-src="{{ 'data:image/jpg;base64,' + produto.imagem }}" height="75"/>
+            <div class="caption">
+                <strong>
+                    <h4>{{ produto.descricao }}</h4>
+                    <h5>{{ produto.preco | number:2 }}</h5>
+                </strong>
+                <div class="text-center">
+                    <button class="btn btn-xs btn-primary" ng-click="vm.adicionarAoCarrinho(produto)">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

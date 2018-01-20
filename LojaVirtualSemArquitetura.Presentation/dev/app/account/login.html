@@ -1,0 +1,28 @@
+<div class="col-md-4 col-md-offset-4">
+    <div class="panel panel-default">
+        <div class="panel-heading text-center">
+            Identifique-se
+        </div>
+        <div class="panel-body">
+            <form name="formLogin" ng-submit="vm.submit()" novalidate>
+                <div class="form-group" ng-class="{ 'has-error' : formLogin.usuarioLogin.$invalid && formLogin.usuarioLogin.$dirty }">
+                    <label for="usuarioEmail">Usuário <em>(e-mail)</em></label>
+                    <input type="email" class="form-control" id="usuarioEmail" name="usuarioEmail" ng-model="vm.usuario.email" required/>
+                </div>
+                <div class="form-group" ng-class="{ 'has-error' : formLogin.senha.$invalid && formLogin.senha.$dirty }">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" id="senha" name="senha" ng-model="vm.usuario.senha" required/>
+                </div>                
+                <button type="submit" class="btn btn-primary btn-block" ng-disabled="formLogin.$invalid">
+                    Acessar
+                </button>
+                <br>
+                <div class="text-center">
+                    <a href="#!/usuario/create">Clique aqui e cadastre-se</a>
+                    <span style="margin-left: 10; margin-right: 10">|</span>
+                    <a href="#!/">Home</a>
+                </div>                
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<h3>Alterar Categoria</h3>
+<form name="formCategoria" id="formCategoria" ng-submit="vm.atualizar()" novalidate>
+    <div class="row">
+        <div class="form-group col-md-12">
+            <label for="descricao">Descrição</label>
+            <input type="text" class="form-control" ng-model="vm.categoria.descricao" id="descricao" name="descricao" ng-minlength="3" ng-maxlength="100" required autofocus/>
+            <span class="text-danger" ng-show="formCategoria.descricao.$dirty && formCategoria.descricao.$error.required">Descrição Obrigatória</span>
+            <span class="text-danger" ng-show="formCategoria.descricao.$dirty && formCategoria.descricao.$error.minlength">Descrição deve ter no mínimo 3 caracteres</span>
+            <span class="text-danger" ng-show="formCategoria.descricao.$dirty && formCategoria.descricao.$error.maxlength">Descrição deve ter no máximo 100 caracteres</span>
+        </div>
+    </div>
+    <footer>
+        <div class="pull-right">
+            <button class="btn btn-success" type="submit" ng-disabled="formCategoria.$invalid">
+                <span class="glyphicon glyphicon-ok"></span>
+                Confirmar
+            </button>
+            <a href="#!/categoria/list" class="btn btn-danger">
+                <span class="glyphicon glyphicon-remove"></span>                
+                Cancelar
+            </a>
+        </div>
+    </footer>
+</form>

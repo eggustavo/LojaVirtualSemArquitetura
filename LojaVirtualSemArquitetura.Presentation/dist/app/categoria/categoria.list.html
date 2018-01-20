@@ -1,0 +1,36 @@
+<h3>Categorias</h3>
+<a class="btn btn-primary btn-sm pull-right" href="#!/categoria/create">
+    <span class="glyphicon glyphicon-plus"></span>    
+    Nova Categoria
+</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th class="col-md-10">Descrição</th>
+            <th class="col-md-2 text-center">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2">
+                <input type="text" class="form-control input-sm" ng-model="filtro" placeholder="Filtrar..." />
+            </td>
+        </tr>
+        <tr ng-repeat="categoria in vm.colecaoCategoria | filter : filtro">
+            <td>{{ categoria.descricao }}</td>
+            <td>
+                <div class="text-center">
+                    <a class="btn btn-primary btn-xs" data-toggle="tooltip" title="Visualizar" href="#!/categoria/view/{{categoria.id}}">
+                        &nbsp;<span class="glyphicon glyphicon-search"></span>&nbsp;
+                    </a>
+                    <a class="btn btn-primary btn-xs" data-toggle="tooltip" title="Editar" href="#!/categoria/edit/{{categoria.id}}">
+                        &nbsp;<span class="glyphicon glyphicon-edit"></span>&nbsp;
+                    </a>
+                    <button type="button" class="btn btn-danger btn-xs" ng-click="vm.remover(categoria)" data-toggle="tooltip" title="Remover">
+                        &nbsp;<span class="glyphicon glyphicon-remove"></span>&nbsp;
+                    </button>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,78 @@
+<html ng-app="LV">
+  <head>
+    <meta charset="utf-8">
+    <title>Loja Virtual - Dev</title>
+    <meta name="description" content="Bem vindo à Loja Virtual" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/toastr/toastr.css" />
+    <link rel="stylesheet" href="assets/css/loja-virtual.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.css">
+  </head>
+  <body>
+    <div ng-include="'app/layout/menu.html'"></div>
+    <div class="container" ng-view></div>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/toastr/toastr.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-locale-pt-br/angular-locale_pt-br.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-input-masks/angular-input-masks-dependencies.js"></script>
+    <script src="bower_components/angular-input-masks/angular-input-masks.js"></script>
+    <script src="bower_components/angular-input-masks/angular-input-masks.br.js"></script>
+    <script src="bower_components/angular-base64-upload/dist/angular-base64-upload.js"></script>
+    <script src="bower_components/angular-password/angular-password.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    
+    <!-- Scripts AngularJS -->
+    <script src="app/app.module.js"></script>
+    <script src="app/app.config.js"></script>
+    <script src="app/app.constant.js"></script>
+    <script src="app/app.run.js"></script>
+    
+    <!-- Services -->
+    <script src="app/services/message.js"></script>
+    
+    <!-- Factories -->
+    <script src="app/factories/login.factory.js"></script>
+    <script src="app/factories/usuario.factory.js"></script>
+    <script src="app/factories/categoria.factory.js"></script>
+    <script src="app/factories/produto.factory.js"></script>
+    <script src="app/factories/cep.factory.js"></script>
+    <script src="app/factories/pedido.factory.js"></script>
+    
+    <!-- Controllers Login, Logout e Troca de Senha -->
+    <script src="app/account/login.controller.js"></script>
+    <script src="app/account/logout.controller.js"></script>
+    <script src="app/account/trocar-senha.controller.js"></script>
+
+    <!-- Controllers Usuário -->
+    <script src="app/usuario/usuario.create.controller.js"></script>    
+   
+    <!-- Controllers Categoria -->
+    <script src="app/categoria/categoria.list.controller.js"></script>
+    <script src="app/categoria/categoria.create.controller.js"></script>
+    <script src="app/categoria/categoria.edit.controller.js"></script>
+    <script src="app/categoria/categoria.view.controller.js"></script>
+
+    <!-- Controllers Produto -->
+    <script src="app/produto/produto.list.controller.js"></script>
+    <script src="app/produto/produto.list-categoria.controller.js"></script>
+    <script src="app/produto/produto.create.controller.js"></script>
+    <script src="app/produto/produto.edit.controller.js"></script>
+    <script src="app/produto/produto.view.controller.js"></script>
+
+    <!-- Controllers Carrinho -->
+    <script src="app/carrinho/carrinho.controller.js"></script>  
+    
+    <!-- Controllers Pedido -->
+    <script src="app/pedido/pedido-finalizado.controller.js"></script>
+    <script src="app/pedido/pedido-list.controller.js"></script>
+  </body>
+</html>

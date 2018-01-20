@@ -1,0 +1,117 @@
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\csc.exe
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\csc.exe.config
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\csc.rsp
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\csi.exe
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\csi.exe.config
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\csi.rsp
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.AppContext.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Console.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.IO.Compression.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.IO.Pipes.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Security.Claims.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Threading.Thread.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.ValueTuple.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Xml.XPath.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\vbc.exe
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\vbc.exe.config
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\vbc.rsp
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\VBCSCompiler.exe
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\LojaVirtualSemArquitetura.dll.config
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\LojaVirtualSemArquitetura.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\LojaVirtualSemArquitetura.pdb
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\EntityFramework.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\EntityFramework.SqlServer.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Cors.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Security.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Newtonsoft.Json.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Owin.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Net.Http.Formatting.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Cors.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.Owin.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.WebHost.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\EntityFramework.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\EntityFramework.SqlServer.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Cors.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Security.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Newtonsoft.Json.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Net.Http.Formatting.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.Owin.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.WebHost.xml
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\obj\Debug\LojaVirtualSemArquitetura.csprojResolveAssemblyReference.cache
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\obj\Debug\LojaVirtualSemArquitetura.dll
+C:\Users\eduardo.goncalves.AUDITECMATAO\documents\visual studio 2017\Projects\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\obj\Debug\LojaVirtualSemArquitetura.pdb
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\LojaVirtualSemArquitetura.dll.config
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\LojaVirtualSemArquitetura.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\LojaVirtualSemArquitetura.pdb
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\EntityFramework.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\EntityFramework.SqlServer.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Cors.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Security.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Newtonsoft.Json.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Owin.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Net.Http.Formatting.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Cors.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.Owin.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.WebHost.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\EntityFramework.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\EntityFramework.SqlServer.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Cors.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Security.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\Newtonsoft.Json.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Net.Http.Formatting.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.Owin.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\bin\System.Web.Http.WebHost.xml
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\obj\Debug\LojaVirtualSemArquitetura.csproj.CoreCompileInputs.cache
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\obj\Debug\LojaVirtualSemArquitetura.dll
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\obj\Debug\LojaVirtualSemArquitetura.pdb
+C:\Eduardo\Projetos\LojaVirtualSemArquitetura\LojaVirtualSemArquitetura\obj\Debug\LojaVirtualSemArquitetura.csprojResolveAssemblyReference.cache

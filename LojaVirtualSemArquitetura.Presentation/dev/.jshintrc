@@ -1,0 +1,19 @@
+{
+    "curly": true,
+    "newcap": true,
+    "eqeqeq": true,
+    "undef": true,
+    "devel": true,
+    "debug": true,
+    "validthis": true,
+    "globals": {
+        "$": true,
+        "jQuery": true,
+        "angular": true,
+        "toastr": true,
+        "sessionStorage": true,
+        "localStorage": true,
+        "module": true,
+        "require": true
+    }
+}

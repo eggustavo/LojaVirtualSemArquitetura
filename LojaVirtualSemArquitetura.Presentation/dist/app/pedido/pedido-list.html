@@ -1,0 +1,31 @@
+<h3>Meus Pedidos</h3>
+<uib-accordion close-others="true">
+    <div ng-repeat="pedido in vm.colecaoPedido" uib-accordion-group class="panel-primary">
+        <uib-accordion-heading>
+            <div class="row">
+                <div class="col-md-9">
+                    Nº Pedido: {{ pedido.id }}
+                    <br>
+                    <h6>Data: {{ pedido.data | date: 'dd/MM/yyyy' }}</h6>
+                </div>
+                <div class="col-md-3 text-right align-middle">                    
+                    {{ pedido.valorTotal | number:2 }}
+                </div>
+            </div>
+        </uib-accordion-heading>
+        <h5><strong>Itens</strong></h5>
+        <div class="row">
+            <span class="col-md-4"><strong>Descrição</strong></span>
+            <span class="col-md-2 text-center"><strong>Qtde</strong></span>
+            <span class="col-md-3 text-right"><strong>Vl. Unitário</strong></span>
+            <span class="col-md-3 text-right"><strong>Vl. Total</strong></span>
+        </div>
+        <hr style="margin-top: 5px; margin-bottom: 5px">        
+        <div class="row" ng-repeat="pedidoItem in pedido.itens">
+            <span class="col-md-4">{{ pedidoItem.produto.descricao }}</span>
+            <span class="col-md-2 text-center">{{ pedidoItem.quantidade }}</span>
+            <span class="col-md-3 text-right">{{ pedidoItem.valorUnitario | number:2 }}</span>
+            <span class="col-md-3 text-right">{{ pedidoItem.valorTotal | number:2 }}</span>
+        </div>
+    </div>
+</uib-accordion>

@@ -1,0 +1,62 @@
+<h1>Carrinho de Compras</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th class="text-center col-md-1">Item</th>
+            <th class="text-center"></th>
+            <th class="text-center col-md-1">Qtde</th>
+            <th class="text-center col-md-2">Preço</th>
+            <th class="text-center col-md-2">Total</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="itemCarrinho in vm.itensCarrinho">
+            <td class="col-md-1"><img ng-src="{{ 'data:image/jpg;base64,' + itemCarrinho.imagem }}" alt="{{ itemCarrinho.descricao }}" height="75"/></td>
+            <td style="vertical-align: middle">{{ itemCarrinho.descricao }}</td>
+            <td style="vertical-align: middle" class="text-center col-md-1"><input type="number" min="1" class="form-control" ng-model="itemCarrinho.quantidade" ng-change="vm.atualizarCarrinho()" /></td>
+            <td style="vertical-align: middle" class="text-center col-md-2">{{ itemCarrinho.preco | number:2 }}</td>
+            <td style="vertical-align: middle" class="text-center col-md-2">{{ (itemCarrinho.preco * itemCarrinho.quantidade) | number:2 }}</td>
+            <td style="vertical-align: middle">
+                <button class="btn btn-danger btn-xs" ng-click="vm.remover(itemCarrinho)">Remover</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <div class="form-inline">
+                    <h5>Desconto</h5>
+                    <input type="text" class="form-control" ng-model="vm.desconto" id="desconto" name="desconto" ng-change="vm.obterTotal()" ui-number-mask/>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <div class="form-inline">
+                    <h5>Taxa de Entrega</h5>
+                    <input type="text" class="form-control" ng-model="vm.taxaEntrega" id="taxaEntrega" name="taxaEntrega" ng-change="vm.obterTotal()" ui-number-mask/>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="6">
+                <h3 class="text-right">{{ vm.total | number:2 }}</h3>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+<br />
+<hr />
+<br />
+
+<p class="text-center">
+    <button class="btn btn-lg btn-success" ng-show="usuario" ng-click="vm.finalizarCompra()">
+        <i class="glyphicon glyphicon-usd"></i> Finalizar Pedido
+    </button>
+    <button class="btn btn-lg btn-success" ng-show="!usuario" ng-click="vm.login()">
+        <i class="glyphicon glyphicon-log-in"></i> Autentique-se para finalizar o pedido
+    </button>
+</p>

@@ -1,0 +1,36 @@
+<h3>Visualizar Produto</h3>
+<form name="formProduto" id="formProduto" novalidate>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="descricao">Descrição</label>
+            <input type="text" class="form-control" ng-model="vm.produto.descricao" id="descricao" name="descricao" disabled/>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="categoriaId">Categoria</label>
+            <input type="text" class="form-control" ng-model="vm.produto.descricaoCategoria" id="descricaoCategoria" name="descricaoCategoria" disabled/>
+        </div>        
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="preco">Preço</label>
+            <input type="text" class="form-control" ng-model="vm.produto.preco" id="preco" name="preco" ui-number-mask disabled/>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="quantidadeEstoque">Qtde. Estoque</label>
+            <input type="text" class="form-control" ng-model="vm.produto.quantidadeEstoque" id="quantidadeEstoque" name="quantidadeEstoque" disabled/>
+        </div>
+    </div>  
+    <div class="row">
+        <div class="form-group col-md-12">
+            <img ng-src="{{ 'data:image/jpg;base64,' + vm.produto.imagem }}"/>        
+        </div>
+    </div>           
+    <footer>
+        <div class="pull-right">
+            <a href="#!/produto/list" class="btn btn-primary">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                Voltar
+            </a>
+        </div>
+    </footer>
+</form>
